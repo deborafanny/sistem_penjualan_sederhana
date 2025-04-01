@@ -1,0 +1,92 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+}
+
+.navbar {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: inset 0 -1px 0 0 rgb(127, 123, 123);
+    padding: 20px 0;
+}
+.navbar-brand img {
+    height: 50px;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+}
+.btn-custom {
+    background-color: #d4a373;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #b6895b;
+}
+.about-section {
+    padding: 100px 0;
+    background-color: #222;
+}
+.products-section {
+    padding: 100px 0;
+    background-color: #111;
+}
+.product-card {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#cafe{
+    background-color: #1E201E;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.product-card h5 {
+    margin: 10px 0;
+}
+
+#contact{
+    background-color: #090909;
+}
+
+.card-body{
+    background-color: #272525;
+}
+   
